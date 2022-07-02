@@ -3,6 +3,7 @@
 
 import random
 
+
 class Drunk:
 
     def __init__(self, name):
@@ -15,5 +16,4 @@ class BorrachoTradicional(Drunk):
         super().__init__(name)
 
     def walk(self):
-        return random.choice([(0,1),(0,-1),(1,0),(-1,0)])
-
+        return random.choice([(0, 1), (0, -1), (1, 0), (-1, 0)])
