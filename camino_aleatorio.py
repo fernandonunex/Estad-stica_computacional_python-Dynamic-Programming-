@@ -51,7 +51,7 @@ def main(distacias_de_caminata, numero_de_intentos, tipo_de_borracho):
 
 
 if __name__ == '__main__':
-    distacias_de_caminata = [2,4,6]
-    numero_de_intentos = 1
+    distacias_de_caminata = [10,20,30,40,50,60,70,80,90,100]
+    numero_de_intentos = 10
 
     main(distacias_de_caminata, numero_de_intentos, BorrachoTradicional)
