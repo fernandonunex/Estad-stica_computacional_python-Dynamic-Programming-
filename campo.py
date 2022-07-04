@@ -18,3 +18,8 @@ class Campo:
 
     def get_coord(self, drunk):
         return self.coordenadas_of_drunks[drunk]
+
+    def get_coord_x_y(self, drunk):
+        coords = self.coordenadas_of_drunks[drunk]
+
+        return (coords.x, coords.y)
